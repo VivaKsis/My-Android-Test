@@ -62,26 +62,26 @@ public class Destination : MonoBehaviour
         bool leftDoorOpened = false;
         Vector3 pos;
 
-        if (_leftDoor.transform.position.z >= LEFT_DOOR_OPEN_Z)
+        if (_leftDoor.transform.localPosition.z >= LEFT_DOOR_OPEN_Z)
         {
             leftDoorOpened = true;
         }
         else
         {
-            pos = _leftDoor.transform.position;
+            pos = _leftDoor.transform.localPosition;
             pos = new Vector3(pos.x, pos.y, pos.z + SPEED_STEP);
-            _leftDoor.transform.position = pos;
+            _leftDoor.transform.localPosition = pos;
         }
 
-        if (_rightDoor.transform.position.z <= RIGHT_DOOR_OPEN_Z && leftDoorOpened)
+        if (_rightDoor.transform.localPosition.z <= RIGHT_DOOR_OPEN_Z && leftDoorOpened)
         {
             state = State.opened;
         }
         else
         {
-            pos = _rightDoor.transform.position;
+            pos = _rightDoor.transform.localPosition;
             pos = new Vector3(pos.x, pos.y, pos.z - SPEED_STEP);
-            _rightDoor.transform.position = pos;
+            _rightDoor.transform.localPosition = pos;
         }
     }
 
@@ -90,26 +90,26 @@ public class Destination : MonoBehaviour
         bool leftDoorClosed = false;
         Vector3 pos;
 
-        if (_leftDoor.transform.position.z <= leftDoorClosePositionZ)
+        if (_leftDoor.transform.localPosition.z <= leftDoorClosePositionZ)
         {
             leftDoorClosed = true;
         }
         else
         {
-            pos = _leftDoor.transform.position;
+            pos = _leftDoor.transform.localPosition;
             pos = new Vector3(pos.x, pos.y, pos.z - SPEED_STEP);
-            _leftDoor.transform.position = pos;
+            _leftDoor.transform.localPosition = pos;
         }
 
-        if (_rightDoor.transform.position.z >= rightDoorClosePositionZ && leftDoorClosed)
+        if (_rightDoor.transform.localPosition.z >= rightDoorClosePositionZ && leftDoorClosed)
         {
             state = State.closed;
         }
         else
         {
-            pos = _rightDoor.transform.position;
+            pos = _rightDoor.transform.localPosition;
             pos = new Vector3(pos.x, pos.y, pos.z + SPEED_STEP);
-            _rightDoor.transform.position = pos;
+            _rightDoor.transform.localPosition = pos;
         }
     }
 
@@ -120,8 +120,8 @@ public class Destination : MonoBehaviour
 
     private void Start()
     {
-        leftDoorClosePositionZ = _leftDoor.transform.position.z;
-        rightDoorClosePositionZ = _rightDoor.transform.position.z;
+        leftDoorClosePositionZ = _leftDoor.transform.localPosition.z;
+        rightDoorClosePositionZ = _rightDoor.transform.localPosition.z;
 
         _enterZone.SetOnEnterAction(StartOpening);
         _enterZone.SetOnExitAction(StartClosing);
