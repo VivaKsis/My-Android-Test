@@ -12,8 +12,8 @@ public class Area : MonoBehaviour
     [SerializeField] private float _minZ;
     [SerializeField] private float _maxZ;
 
-    private static int OBSTACLE_AMOUNT = 200;
-    private static float OBSTACLE_Y_COORDINATE = 1;
+    private static int OBSTACLE_AMOUNT = 100;
+    private static float OBSTACLE_Y_COORDINATE = 0;
 
     private float x, z;
     

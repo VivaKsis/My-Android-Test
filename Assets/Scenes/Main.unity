@@ -153,8 +153,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _initializationPoolData:
-  - _originalInstance: {fileID: 8033053570436027126, guid: 1ae0504574a1cc44c8d304256bccaa23, type: 3}
-    _initialPoolCapacity: 250
+  - _originalInstance: {fileID: 259190209172123228, guid: b5f8eb6ac606596459d26d136d8a0b93, type: 3}
+    _initialPoolCapacity: 100
   - _originalInstance: {fileID: 697978766585625989, guid: fa8a60a8c0338c443b752a4753d7d555, type: 3}
     _initialPoolCapacity: 1
   - _originalInstance: {fileID: 1955305073008448926, guid: 9870663372a68fa41b6d701dbd3ee162, type: 3}
@@ -919,13 +919,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705507993}
-  m_LocalRotation: {x: 0.34618863, y: 0.5198367, z: -0.24240384, w: 0.742404}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0.042597223, y: 0.9016924, z: -0.42046598, w: 0.09134997}
+  m_LocalPosition: {x: 15.28, y: 9.26, z: 26.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 50, y: 70, z: 0}
+  m_LocalEulerAnglesHint: {x: 50, y: 168.43, z: 0}
 --- !u!1 &735927102
 GameObject:
   m_ObjectHideFlags: 0
@@ -1345,13 +1345,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.3535534, y: 0.61237246, z: -0.3535534, w: 0.61237246}
-  m_LocalPosition: {x: -17, y: 20, z: 0}
+  m_LocalRotation: {x: 0.27059805, y: 0.6532815, z: -0.27059805, w: 0.6532815}
+  m_LocalPosition: {x: -2, y: 7, z: 15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 60, y: 90, z: 0}
+  m_LocalEulerAnglesHint: {x: 45, y: 90, z: 0}
 --- !u!114 &963194229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1385,7 +1385,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _target: {fileID: 1299442425}
-  _offset: {x: -4, y: 18.5, z: 0}
+  _offset: {x: -4, y: 5.5, z: 0}
 --- !u!1 &998912722
 GameObject:
   m_ObjectHideFlags: 0
@@ -2366,7 +2366,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1afba2e3c34c0e74eabc8544afe40549, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _obstacle: {fileID: 8033053570436027126, guid: 1ae0504574a1cc44c8d304256bccaa23, type: 3}
+  _obstacle: {fileID: 259190209172123228, guid: b5f8eb6ac606596459d26d136d8a0b93, type: 3}
   _minX: 4
   _maxX: 24
   _minZ: 2

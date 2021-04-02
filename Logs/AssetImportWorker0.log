@@ -1,0 +1,576 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.0f1 (3721df5a8b28) revision 3613151'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 8100 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\2020.2.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/GameDev/GoodJob/Unity Test
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60283
+Successfully changed project path to: D:/GameDev/GoodJob/Unity Test
+D:/GameDev/GoodJob/Unity Test
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 47.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.0f1 (3721df5a8b28)
+[Subsystems] Discovering subsystems at path C:/Program Files/2020.2.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GameDev/GoodJob/Unity Test/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GT 630 (ID=0xf00)
+    Vendor:   
+    VRAM:     1989 MB
+    Driver:   23.21.13.9135
+Initialize mono
+Mono path[0] = 'C:/Program Files/2020.2.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/2020.2.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/2020.2.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56540
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/2020.2.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002609 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 41.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.946 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000844 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.397 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1122 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.1 MB.
+System memory in use after: 79.1 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1597.
+Total: 2.695200 ms (FindLiveObjects: 0.166000 ms CreateObjectMapping: 0.057900 ms MarkObjects: 2.355800 ms  DeleteObjects: 0.113800 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Tree 1_Textures/shadow.png
+  artifactKey: Guid(36f9a93cb98bbfe43beede269b0cb8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree 1_Textures/shadow.png using Guid(36f9a93cb98bbfe43beede269b0cb8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b84a89c0cd3df7a8ac674e1556b70b03') in 0.096580 seconds
+  Import took 0.100236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/Tree 1_Textures/diffuse.png
+  artifactKey: Guid(c9d45f9ab11e098458b051e582f753ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree 1_Textures/diffuse.png using Guid(c9d45f9ab11e098458b051e582f753ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '861f8f59dbd46fac3524938ab46baf64') in 0.043855 seconds
+  Import took 0.047450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031375 seconds.
+  path: Assets/Tree 1_Textures/normal_specular.png
+  artifactKey: Guid(9c3256a180ea6ca418e5503f179d5afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree 1_Textures/normal_specular.png using Guid(9c3256a180ea6ca418e5503f179d5afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b8e8987d6d7be8d9ec7e2069dd8528d') in 0.031986 seconds
+  Import took 0.036029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Tree 1_Textures/translucency_gloss.png
+  artifactKey: Guid(5cfe3908539d68047b87d36b507ed7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree 1_Textures/translucency_gloss.png using Guid(5cfe3908539d68047b87d36b507ed7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b6983fa8a51243d1243014f7604ff85') in 0.039565 seconds
+  Import took 0.042846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 635.891910 seconds.
+  path: Assets/Materials/Bark.mat
+  artifactKey: Guid(0fd609752bd924d4bae49984af9a5f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Bark.mat using Guid(0fd609752bd924d4bae49984af9a5f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccc4391e3e20e6846ad3c1a9a9371876') in 0.138294 seconds
+  Import took 0.152690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.414666 seconds.
+  path: Assets/Images/Bark.png
+  artifactKey: Guid(fa7bedf5a5dd45e41ae696a8e7081a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Bark.png using Guid(fa7bedf5a5dd45e41ae696a8e7081a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd259f7d7f83947f7f6ef5af5af7584') in 0.092753 seconds
+  Import took 0.096013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Tree 1_Textures/shadow.png
+  artifactKey: Guid(36f9a93cb98bbfe43beede269b0cb8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree 1_Textures/shadow.png using Guid(36f9a93cb98bbfe43beede269b0cb8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f8eea665ea239c0476c69cf18f0817c') in 0.217610 seconds
+  Import took 0.231909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Tree 1_Textures/diffuse.png
+  artifactKey: Guid(c9d45f9ab11e098458b051e582f753ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree 1_Textures/diffuse.png using Guid(c9d45f9ab11e098458b051e582f753ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc90ec9b8175ce1130f1107caad07b2a') in 0.145020 seconds
+  Import took 0.151648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Tree 1_Textures/normal_specular.png
+  artifactKey: Guid(9c3256a180ea6ca418e5503f179d5afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree 1_Textures/normal_specular.png using Guid(9c3256a180ea6ca418e5503f179d5afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a68261ada694b3e5b68a4dfd5be1872b') in 0.096840 seconds
+  Import took 0.102534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000478 seconds.
+  path: Assets/Tree 1_Textures/diffuse.png
+  artifactKey: Guid(c9d45f9ab11e098458b051e582f753ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree 1_Textures/diffuse.png using Guid(c9d45f9ab11e098458b051e582f753ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc90ec9b8175ce1130f1107caad07b2a') in 0.091331 seconds
+  Import took 0.094565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Tree 1_Textures/translucency_gloss.png
+  artifactKey: Guid(5cfe3908539d68047b87d36b507ed7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree 1_Textures/translucency_gloss.png using Guid(5cfe3908539d68047b87d36b507ed7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c70276247d6468f873f392f5d5b446') in 0.066246 seconds
+  Import took 0.075887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.625468 seconds.
+  path: Assets/Tree 1.prefab
+  artifactKey: Guid(e27d27665ea275e41a58ceb67116b2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree 1.prefab using Guid(e27d27665ea275e41a58ceb67116b2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9700dede140c785ccec8518a365344c') in 0.643497 seconds
+  Import took 0.658292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.472543 seconds.
+  path: Assets/Tree 1.prefab
+  artifactKey: Guid(e27d27665ea275e41a58ceb67116b2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree 1.prefab using Guid(e27d27665ea275e41a58ceb67116b2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20aeef53a63b76d1f9b183ff9b1cb458') in 0.141077 seconds
+  Import took 0.144825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.530165 seconds.
+  path: Assets/Tree 1.prefab
+  artifactKey: Guid(e27d27665ea275e41a58ceb67116b2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree 1.prefab using Guid(e27d27665ea275e41a58ceb67116b2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '852f56b3642b8fc86d2c539b80cf1802') in 0.334126 seconds
+  Import took 0.337952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008563 seconds.
+  path: Assets/Tree 1.prefab
+  artifactKey: Guid(e27d27665ea275e41a58ceb67116b2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree 1.prefab using Guid(e27d27665ea275e41a58ceb67116b2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '852f56b3642b8fc86d2c539b80cf1802') in 0.295559 seconds
+  Import took 0.300345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.627033 seconds.
+  path: Assets/Tree 1.prefab
+  artifactKey: Guid(e27d27665ea275e41a58ceb67116b2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree 1.prefab using Guid(e27d27665ea275e41a58ceb67116b2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2912055cc6d459ffda4826b95a3cd8b') in 0.172744 seconds
+  Import took 0.176441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.958552 seconds.
+  path: Assets/Materials/Bark.mat
+  artifactKey: Guid(0fd609752bd924d4bae49984af9a5f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Bark.mat using Guid(0fd609752bd924d4bae49984af9a5f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcd345ed036bbf0ed18410a07915cce8') in 0.049211 seconds
+  Import took 0.052864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000500 seconds.
+  path: Assets/Materials/Leaves.mat
+  artifactKey: Guid(ceeb458884ebb9a4587f822957015c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Leaves.mat using Guid(ceeb458884ebb9a4587f822957015c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57eb80bdfb7f972aa171f39b3f1ac6c4') in 0.077282 seconds
+  Import took 0.080142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.593608 seconds.
+  path: Assets/Prefabs/OptimizedTree.prefab
+  artifactKey: Guid(ba639fef47ed6f24db06d00228aeef8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/OptimizedTree.prefab using Guid(ba639fef47ed6f24db06d00228aeef8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1d69025ad2f4a7cf2051a832b06f2c8') in 0.131037 seconds
+  Import took 0.134614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.203842 seconds.
+  path: Assets/Prefabs/OptimizedTree.prefab
+  artifactKey: Guid(ba639fef47ed6f24db06d00228aeef8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/OptimizedTree.prefab using Guid(ba639fef47ed6f24db06d00228aeef8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '154d397546c60e596b3b5537b20971b7') in 0.117406 seconds
+  Import took 0.120661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 191.571853 seconds.
+  path: Assets/Prefabs/TreeObstacle.prefab
+  artifactKey: Guid(b5f8eb6ac606596459d26d136d8a0b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TreeObstacle.prefab using Guid(b5f8eb6ac606596459d26d136d8a0b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce6087c2d2c311a2b19cb434feb24646') in 0.163061 seconds
+  Import took 0.166229 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004120 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.109 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1106 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.2 MB.
+System memory in use after: 83.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1646.
+Total: 2.515200 ms (FindLiveObjects: 0.209900 ms CreateObjectMapping: 0.111300 ms MarkObjects: 2.081100 ms  DeleteObjects: 0.111000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000731 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.601 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1107 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.1 MB.
+System memory in use after: 84.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1648.
+Total: 3.465900 ms (FindLiveObjects: 0.504700 ms CreateObjectMapping: 0.125100 ms MarkObjects: 2.727900 ms  DeleteObjects: 0.106000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 152.647123 seconds.
+  path: Assets/Prefabs/TreeObstacle.prefab
+  artifactKey: Guid(b5f8eb6ac606596459d26d136d8a0b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TreeObstacle.prefab using Guid(b5f8eb6ac606596459d26d136d8a0b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d756d7ec53317355149070d574f9b95') in 1.431483 seconds
+  Import took 1.434733 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000917 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.544 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1107 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.3 MB.
+System memory in use after: 84.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1651.
+Total: 2.114600 ms (FindLiveObjects: 0.158400 ms CreateObjectMapping: 0.051300 ms MarkObjects: 1.810900 ms  DeleteObjects: 0.092400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000998 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.636 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1107 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.3 MB.
+System memory in use after: 84.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1653.
+Total: 3.201000 ms (FindLiveObjects: 0.234400 ms CreateObjectMapping: 0.127700 ms MarkObjects: 2.724300 ms  DeleteObjects: 0.113000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 97.981314 seconds.
+  path: Assets/Prefabs/TreeObstacle.prefab
+  artifactKey: Guid(b5f8eb6ac606596459d26d136d8a0b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TreeObstacle.prefab using Guid(b5f8eb6ac606596459d26d136d8a0b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b70e843cf7d3002a56a2edb100170f9') in 0.353729 seconds
+  Import took 0.357648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.460175 seconds.
+  path: Assets/Prefabs/TreeObstacle.prefab
+  artifactKey: Guid(b5f8eb6ac606596459d26d136d8a0b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TreeObstacle.prefab using Guid(b5f8eb6ac606596459d26d136d8a0b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f3cad0aa1251a120a18c39681011e41') in 0.173434 seconds
+  Import took 0.179112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.711788 seconds.
+  path: Assets/Prefabs/TreeObstacle.prefab
+  artifactKey: Guid(b5f8eb6ac606596459d26d136d8a0b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TreeObstacle.prefab using Guid(b5f8eb6ac606596459d26d136d8a0b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f3cad0aa1251a120a18c39681011e41') in 0.101007 seconds
+  Import took 0.104183 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000852 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.154 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1107 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.4 MB.
+System memory in use after: 84.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1656.
+Total: 2.453800 ms (FindLiveObjects: 0.223500 ms CreateObjectMapping: 0.052500 ms MarkObjects: 2.078500 ms  DeleteObjects: 0.097400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.077525 seconds.
+  path: Assets/Prefabs/TreeObstacle.prefab
+  artifactKey: Guid(b5f8eb6ac606596459d26d136d8a0b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TreeObstacle.prefab using Guid(b5f8eb6ac606596459d26d136d8a0b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b87c8254f58034e8932ff1d001fea067') in 0.673559 seconds
+  Import took 0.677793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Prefabs/TreeObstacle.prefab
+  artifactKey: Guid(b5f8eb6ac606596459d26d136d8a0b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TreeObstacle.prefab using Guid(b5f8eb6ac606596459d26d136d8a0b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a167a682747816520db0374919d2b354') in 0.220688 seconds
+  Import took 0.226052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000959 seconds.
+  path: Assets/Prefabs/TreeObstacle.prefab
+  artifactKey: Guid(b5f8eb6ac606596459d26d136d8a0b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TreeObstacle.prefab using Guid(b5f8eb6ac606596459d26d136d8a0b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3485ac3d610f727893e3954946ac608') in 0.123089 seconds
+  Import took 0.150255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.629467 seconds.
+  path: Assets/Prefabs/TreeObstacle.prefab
+  artifactKey: Guid(b5f8eb6ac606596459d26d136d8a0b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TreeObstacle.prefab using Guid(b5f8eb6ac606596459d26d136d8a0b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deb28e4cf7e75d57cb527ce7d6490fb7') in 0.112837 seconds
+  Import took 0.123681 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000920 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.675 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1107 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.4 MB.
+System memory in use after: 84.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1659.
+Total: 2.497200 ms (FindLiveObjects: 0.170400 ms CreateObjectMapping: 0.051800 ms MarkObjects: 2.175200 ms  DeleteObjects: 0.098200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000823 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.527 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1107 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.3 MB.
+System memory in use after: 84.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1661.
+Total: 4.407100 ms (FindLiveObjects: 0.164500 ms CreateObjectMapping: 0.050600 ms MarkObjects: 3.130300 ms  DeleteObjects: 1.059300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000989 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.710 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1107 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.4 MB.
+System memory in use after: 84.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1663.
+Total: 2.413400 ms (FindLiveObjects: 0.176000 ms CreateObjectMapping: 0.173800 ms MarkObjects: 1.964600 ms  DeleteObjects: 0.097100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 552.674046 seconds.
+  path: Assets/Prefabs/TreeObstacle.prefab
+  artifactKey: Guid(b5f8eb6ac606596459d26d136d8a0b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TreeObstacle.prefab using Guid(b5f8eb6ac606596459d26d136d8a0b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '562275f1468f7a620df4337dd663fd4b') in 0.264620 seconds
+  Import took 0.268610 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000738 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.389 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1107 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.4 MB.
+System memory in use after: 84.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1666.
+Total: 3.259700 ms (FindLiveObjects: 0.168800 ms CreateObjectMapping: 0.057500 ms MarkObjects: 2.928700 ms  DeleteObjects: 0.102400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000747 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.567 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1107 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.4 MB.
+System memory in use after: 84.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1668.
+Total: 2.432600 ms (FindLiveObjects: 0.220300 ms CreateObjectMapping: 0.114000 ms MarkObjects: 1.997300 ms  DeleteObjects: 0.099000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 136.894080 seconds.
+  path: Assets/Prefabs/TreeObstacle.prefab
+  artifactKey: Guid(b5f8eb6ac606596459d26d136d8a0b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TreeObstacle.prefab using Guid(b5f8eb6ac606596459d26d136d8a0b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87bdb5f8878ac878b25379f03e2c04b5') in 0.206179 seconds
+  Import took 0.209148 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000718 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.625 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1107 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.4 MB.
+System memory in use after: 84.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1671.
+Total: 2.170500 ms (FindLiveObjects: 0.163100 ms CreateObjectMapping: 0.052300 ms MarkObjects: 1.856300 ms  DeleteObjects: 0.096900 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
