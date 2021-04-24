@@ -17,7 +17,6 @@ public class ThirdPersonCamera : MonoBehaviour
     {
         if (Input.GetMouseButton(1))
         {
-            Debug.Log(Input.GetAxis("Mouse X"));
             _cinemachineFreeLook.m_YAxis.Value -= Input.GetAxis("Mouse Y") / Y_ROTATION_SPEED;
             _cinemachineFreeLook.m_XAxis.Value += Input.GetAxis("Mouse X") * X_ROTATION_SPEED;
         }
