@@ -58,14 +58,14 @@ public class Player : MonoBehaviour
     public void Win()
     {
         playerState = PlayerState.won;
-        _audioManager.PlaySound(AudioManager.Sound.playerWin);
+        _audioManager?.PlaySound(AudioManager.Sound.playerWin);
         _uIManager.YouWonTextShow();
     }
 
     private void Lose()
     {
         playerState = PlayerState.dead;
-        _audioManager.PlaySound(AudioManager.Sound.playerLose);
+        _audioManager?.PlaySound(AudioManager.Sound.playerLose);
         _uIManager.GameOverTextShow();
     }
 
@@ -126,7 +126,7 @@ public class Player : MonoBehaviour
                 explosion = explosionObject.GetComponent<ExplosionProjectile>();
                 explosion.SetOnExplode(() =>
                 {
-                    _audioManager.PlaySound(AudioManager.Sound.explosion);
+                    _audioManager?.PlaySound(AudioManager.Sound.explosion);
                 });
             }
         }
@@ -143,7 +143,7 @@ public class Player : MonoBehaviour
             {
                 explosion.ShootFrom(transform.position);
 
-                _audioManager.PlaySound(AudioManager.Sound.playerShoot);
+                _audioManager?.PlaySound(AudioManager.Sound.playerShoot);
             }
             
             chargeTimer = 0;
@@ -160,16 +160,14 @@ public class Player : MonoBehaviour
         }
         _rigidbody.velocity = currentVelocity;
 
-#if UNITY_EDITOR
+#if UNITY_EDITOR || UNITY_STANDALONE_WIN
 
         float v = Input.GetAxis("Vertical");
         float h = Input.GetAxis("Horizontal");
 
         _rigidbody.AddForce(new Vector3(v, 0, -h) * _speed * Time.deltaTime);
 
-#endif
-
-#if UNITY_ANDROID
+#elif UNITY_ANDROID
 
         var tilt = Input.acceleration;
         _rigidbody.AddForce(new Vector3(tilt.y * accelerationSpeed, 0, -tilt.x * accelerationSpeed));
